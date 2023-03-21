@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <file device="USTAT400" type="normal" version="2"/>
+  <technic id="AD">
+    <cellon>false</cellon>
+    <standbypotential>false</standbypotential>
+    <standbypotentialvalue>0.0</standbypotentialvalue>
+    <tafel>false</tafel>
+    <sensor/>
+    <sample/>
+    <value>0.0</value>
+    <interval>0.5</interval>
+    <numchannels>1</numchannels>
+    <pretreatmentUserParameters>
+      <parameter id="Econd">0.0</parameter>
+      <parameter id="tcond">0.0</parameter>
+      <parameter id="Edep">0.0</parameter>
+      <parameter id="tdep">0.0</parameter>
+      <parameter id="tequil">3.0</parameter>
+    </pretreatmentUserParameters>
+    <commonUserParameters>
+      <parameter id="Interval">0.5</parameter>
+      <parameter id="t">120.0</parameter>
+    </commonUserParameters>
+    <channelUserParameters>
+      <channel id="0">
+        <parameter id="E">-0.2</parameter>
+        <parameter id="Current">0.0</parameter>
+      </channel>
+    </channelUserParameters>
+  </technic>
+</root>
